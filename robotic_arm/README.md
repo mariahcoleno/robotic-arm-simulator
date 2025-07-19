@@ -1,5 +1,5 @@
 ## Robotic Arm Simulator 
-This project simulates a robotic arm that learns to pick and place objects in a 3D environment using reinforcement learning (PPO algorithm with Stable Baselines3). A Tkinter GUI allows users to run the simulation, train the model, and evaluate its performance. The project demonstrates skills in robotics simulation, reinforcement learning, and GUI development—key areas for advancing AI-driven robotics and human scientific discovery.
+This project simulates a robotic arm that learns to pick and place objects in a 3D environment using reinforcement learning (PPO algorithm with Stable Baselines3). The PyBullet physics simulator provides an optional graphical user interface (GUI) for visualizing the simulation, training the model, and evaluating its performance. The project demonstrates skills in robotics simulation, reinforcement learning, and environment design—key areas for advancing AI-driven robotics and human scientific discovery.
 
 ### Features
 - Reinforcement Learning Training
@@ -13,7 +13,7 @@ This project simulates a robotic arm that learns to pick and place objects in a 
   - Real-time monitoring of robotic arm behavior and task completion
 
 - User Interface
-  - Intuitive Tkinter-based GUI for easy simulation control
+  - Intuitive GUI for easy simulation control
   - Streamlined controls for training, evaluation, and visualization
   - Detailed state logging and simulation feedback
 
