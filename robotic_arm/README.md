@@ -25,7 +25,7 @@ This project simulates a robotic arm that learns to pick and place objects in a 
 - `eval_logs.txt`: Logs used to evaluate results. 
 
 ### Requirements 
-- stable-baseline3 (for PPO implementation)
+- stable-baselines3 (for PPO implementation)
 - numpy (for numerical operations)
 - gym (for reinforcement learning environment)
 
@@ -94,7 +94,11 @@ When you run the training, these files will be created locally:
 - Performance: Achieved a 67% success rate with an average episode length of 62 steps over 4.5M timesteps.
 
 ### Notes
-- Ensure Python 3.8+ and virtual environment activation for dependency management.
+- Environment & Dependency Management
+  - Runtime: Python 3.12+ (Optimized for Apple Silicon / ARM64).
+  - Orchestration: Use venv for isolation to prevent global dependency conflicts between RL frameworks.
+  - Compatibility: Explicitly require shimmy to bridge legacy PyBullet physics with the Gymnasium API.
+  - Hardware Note: For macOS installs, prioritize --only-binary for matplotlib to bypass local compilation errors: `pip install --only-binary=:all: matplotlib`
 - Training for 4.5M timesteps takes ~2.2 hours at 568 FPS (based on recent run).
 - Checkpoint loading may encounter issues; consider starting fresh runs or debugging PPO.load() functionality.
 
