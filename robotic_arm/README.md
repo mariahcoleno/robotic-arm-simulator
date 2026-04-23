@@ -35,7 +35,7 @@ This project simulates a robotic arm that learns to pick and place objects in a 
   - Start in your preferred directory (e.g., cd ~/Desktop/ or cd ~/Downloads/ or cd ~/Documents/) to control where the repository clones. 
   - If you skip this step, it clones to your current directory.
 1. Clone the repository: `git clone https://github.com/mariahcoleno/robotic-arm-simulator.git`
-2. Navigate to the ExplainableRoboticArm directory: `cd ExplainableRoboticArm/` (from the root of your cloned repository)
+2. Navigate to the robotic arm directory: `cd robotic_arm/` (from the root of your cloned repository)
 3. Create virtual environment: `python3 -m venv venv`
 4. Activate: `source venv/bin/activate` # On Windows: venv\Scripts\activate
 5. Install dependencies: `pip install -r requirements.txt`
@@ -43,7 +43,7 @@ This project simulates a robotic arm that learns to pick and place objects in a 
 
 #### Option 2: Local Setup (Existing Repository)
 1. Navigate to your local repository `cd ~/Documents/robotic-arm-simulator/` # Adjust path as needed
-2. Navigate to ExplainableRoboticArm directory: `cd ExplainableRoboticArm/`
+2. Navigate to robotic arm directory: `cd robotic_arm/`
 3. Setup and activate a virtual environment:
    - If existing: `source venv/bin/activate` # Adjust path if venv is elsewhere
    - If new:
